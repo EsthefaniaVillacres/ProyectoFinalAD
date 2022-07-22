@@ -112,8 +112,7 @@ namespace Movil
             }
             catch (Exception ex)
             {
-                //  AppendMessage($"An error occurred while connecting: {ex}");
-                //UpdateState(ViewState.Disconnected);
+                
                 _ = DisplayAlert("HECHO", ex.ToString(), "OK");
 
                 return;
